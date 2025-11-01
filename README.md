@@ -1,31 +1,12 @@
 # make-venv-uv
-Use uv to manage dependencies in requirements.txt for simple Python projects.
+Use 'uv' to manage Python and other necessary programs for simple projects that only have a 'requirements.txt' file.
 
-## Related paths
-* uv from PATH
-* .python-version
-* %APPDATA%\uv\python\
-* .venv\
-* requirements.txt
-* uv.lock
+## Set up
+Use `install-uv.bat` as Administrator to install uv.exe.
 
-As Administrator, install uv
-```
-install-uv.bat
-```
+## Use
+Use `make-venv-uv.bat 3.11` to install Python 3.11 (or 3.12, 3.13, 3.14), pin the python version at .python-version, create .venv, activate .venv, create uv.lock from requirements.txt, install packages using uv.lock.
 
-## Three use cases
-As regular user, install specific version of python, pin it at .python-version, create venv, create uv.lock from requirements.txt, install packages using uv.lock.
-```
-make-venv-uv.bat 3.12
-```
+Use `make-venv-uv.bat 3.12` (or other versions) to switch Python version.
 
-As regular user, change python version (and in turn, re-create .venv and uv.lock)
-```
-make-venv-uv.bat 3.13
-```
-
-As regular user, install python configured in .python-version, create venv, create uv.lock from requirements.txt, install packages using uv.lock.
-```
-make-venv-uv.bat
-```
+Use `make-venv-uv.bat` to install Python configured in .python-version, create .venv, activate .venv, create uv.lock from requirements.txt, install packages using uv.lock.
