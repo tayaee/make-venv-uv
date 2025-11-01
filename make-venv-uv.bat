@@ -1,6 +1,4 @@
 @echo off
-REM Name: make-venv-uv.bat
-REM 2025-10-31, soonki, https://codeshare.io/ankRnM
 
 set CURRENT_DRIVE=%CD:~0,2%
 set UV_CACHE_DIR=%CURRENT_DRIVE%\.uv-cache
