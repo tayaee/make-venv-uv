@@ -1,5 +1,6 @@
 @echo off
 
+REM The UV cache has to be on the same drive (partition) as the project so that it can be installed quickly.
 set CURRENT_DRIVE=%CD:~0,2%
 set UV_CACHE_DIR=%CURRENT_DRIVE%\.uv-cache
 echo Using UV_CACHE_DIR=%UV_CACHE_DIR%
