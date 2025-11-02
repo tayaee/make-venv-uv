@@ -1,4 +1,4 @@
-# Simple Python project wiht requirements.txt
+# Simple Python projects with requirements.txt
 Use uv and requirements.txt to set up simple Python projects.
 
 ## Set up
