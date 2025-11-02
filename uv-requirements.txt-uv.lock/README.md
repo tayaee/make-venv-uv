@@ -1,6 +1,10 @@
 # Simple Python projects with requirements.txt
 Use uv and requirements.txt to set up simple Python projects.
 
+## Configuration files
+* requirements.txt (dependencies)
+* uv.lock (auto-generated)
+
 ## Commands (Windows)
 install-uv.bat:
 ```
