@@ -1,5 +1,5 @@
-# make-venv-uv
-Use 'uv' to manage Python and other necessary programs for simple projects that only have a 'requirements.txt' file.
+# Simple Python project wiht requirements.txt
+Use uv and requirements.txt to set up simple Python projects.
 
 ## Set up
 Use `install-uv.bat` as Administrator to install uv.exe.
