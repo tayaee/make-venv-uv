@@ -2,19 +2,23 @@
 Use uv and requirements.txt to set up simple Python projects.
 
 ## Commands (Windows)
+install-uv.bat
 ```
-REM install-uv.bat
 powershell -ExecutionPolicy Bypass -c "iwr https://astral.sh/uv/install.ps1 -useb | iex"
 set "PATH=%USERPROFILE%\.local\bin;%PATH%"
+```
 
-REM make-venv-uv.bat
+make-venv-uv.bat
+```
 uv python pin 3.11
 uv python install
 uv venv .venv
 call .venv\scripts\activate
 uv pip compile requirements.txt -o uv.lock
 uv pip sync uv.lock
-
+```
+Run your app
+```
 python app.py
 ```
 
