@@ -15,6 +15,6 @@ python app.py
 ```
 
 ## Files
-Use `install-uv.bat` as Administrator to install uv.exe.
-Use `make-venv-uv.bat` to run all above commands.
-Use `make-venv-uv.bat 3.12` to switch Python version.
+* Use `install-uv.bat` as Administrator to install uv.exe.
+* Use `make-venv-uv.bat` to run all above commands.
+* Use `make-venv-uv.bat 3.12` to switch Python version.
