@@ -1,8 +1,9 @@
 # Simple Python projects with requirements.txt
 Use uv and requirements.txt to set up simple Python projects.
 
-## Commands
+## Commands (Windows)
 ```
+powershell -ExecutionPolicy Bypass -c "iwr https://astral.sh/uv/install.ps1 -useb | iex" & set "PATH=%USERPROFILE%\.local\bin;%PATH%"
 uv python pin 3.11
 uv python install
 uv venv .venv
